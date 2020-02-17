@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Players>
+  <Player>
+    <Name>Darth</Name>
+    <Wins>3</Wins>
+    <Losses>5</Losses>
+    <Ties>1</Ties>
+  </Player>
+  <Player>
+    <Name>Ripley</Name>
+    <Wins>7</Wins>
+    <Losses>3</Losses>
+    <Ties>0</Ties>
+  </Player>
+  <Player>
+    <Name>Anikan</Name>
+    <Wins>4</Wins>
+    <Losses>2</Losses>
+    <Ties>1</Ties>
+  </Player>
+  <Player>
+    <Name>Leia</Name>
+    <Wins>2</Wins>
+    <Losses>8</Losses>
+    <Ties>3</Ties>
+  </Player>
+</Players>

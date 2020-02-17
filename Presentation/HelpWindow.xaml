@@ -1,0 +1,36 @@
+﻿<Window x:Class="Demo_Wpf_TheSimpleGame.Presentation.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo_Wpf_TheSimpleGame.Presentation"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="450" Width="800" Background="Black">
+    <Grid>
+        <Label Content="Instructions" HorizontalAlignment="Center" Foreground="blue" FontSize="24" />
+        <StackPanel Orientation="Vertical" Width="500" Height="200">
+            <Label
+                Content="The goal is to make a straight Line with 4 of your own pieces" Foreground="blue" FontSize="16"
+             />
+            <Label
+                Content="Wins can be achieved vertically, horizontally, or diagonally." Foreground="blue" FontSize="16"
+             />
+            <Label
+                Content="Click on an empty circle to place your piece." Foreground="blue" FontSize="16"
+             />
+            <Label
+                Content="Click 'New Game' to start a new game." Foreground="blue" FontSize="16"
+             />
+            <Label
+                Content="Click 'Reset Board' to remove all pieces." Foreground="blue" FontSize="16"
+             />
+            <Button
+                Content="Close"
+                Margin="20"
+                Width="50"
+                Height="20" 
+                Background="LightBlue"
+                Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
