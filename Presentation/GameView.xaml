@@ -384,6 +384,7 @@
                     <TextBox Width="80" Text="{Binding PlayerO.Ties}" FontSize="20" Foreground="Blue" Background="Black" BorderBrush="Black" IsReadOnly="True" Margin="0,0,0,10"/>
                 </StackPanel>
                 <StackPanel>
+                    <!-- Buttons -->
                     <Button x:Name="Reset" Content="Reset Board" Style="{DynamicResource WindowButtonStyle}" FontFamily="Magneto" Background="LightBlue" Click="WindowButton_Click"/>
                     <Button x:Name="NewGame" Content="New Game" Style="{DynamicResource WindowButtonStyle}" FontFamily="Magneto" Background="LightBlue"  Click="WindowButton_Click"/>
                     <Button x:Name="HelpWindow" Content="Help" Style="{DynamicResource WindowButtonStyle}" FontFamily="Magneto" Background="LightBlue"  Click="HelpWindow_Click"/>
